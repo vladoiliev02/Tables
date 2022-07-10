@@ -1,0 +1,7 @@
+C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/CMakeFiles/Cell_Tests.dir
+C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/CMakeFiles/CSV.dir
+C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/CMakeFiles/Table_Tests.dir
+C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/CMakeFiles/Expression_Tests.dir
+C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/CMakeFiles/StringNumber_Tests.dir
+C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/CMakeFiles/edit_cache.dir

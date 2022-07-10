@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cell_Tests">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Cell_Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cell_Tests"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cell_Tests/fast">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Cell_Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cell_Tests/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSV">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/CSV Table Editor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSV"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSV/fast">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/CSV Table Editor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSV/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Table_Tests">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Table_Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Table_Tests"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Table_Tests/fast">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Table_Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Table_Tests/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Expression_Tests">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Expression_Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Expression_Tests"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Expression_Tests/fast">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Expression_Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Expression_Tests/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StringNumber_Tests">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/StringNumber_Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 StringNumber_Tests"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StringNumber_Tests/fast">
+				<Option output="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/StringNumber_Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File"/>
+					<Add directory="C:/Users/User/Desktop/Uni/Year 1/OOP/Git"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 StringNumber_Tests/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Cell.cpp">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Cell.h">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Cell/Tests/Cell_Tests.cpp">
+			<Option target="Cell_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands/Commands.cpp">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Commands/Commands.h">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Expression.cpp">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Expression.h">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Expression/Tests/Expression_Tests.cpp">
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/StringNumber.cpp">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+			<Option target="StringNumber_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/StringNumber.h">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+			<Option target="StringNumber_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/StringNumber/Tests/StringNumber_Tests.cpp">
+			<Option target="StringNumber_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table/Table.cpp">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table/Table.h">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table/Tests/Table_Tests.cpp">
+			<Option target="Table_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File/Table_File.cpp">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/Table_File/Table_File.h">
+			<Option target="Cell_Tests"/>
+			<Option target="CSV"/>
+			<Option target="Table_Tests"/>
+			<Option target="Expression_Tests"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/main.cpp">
+			<Option target="CSV"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Uni/Year 1/OOP/Git/Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
